@@ -1,5 +1,5 @@
-require '/home/karolina/ruby/battleship_game/game.rb'
-require '/home/karolina/ruby/battleship_game/round.rb'
+require File.expand_path('../game.rb', __FILE__)
+require File.expand_path('../round.rb', __FILE__)
 
 battleship = Game.new
 battleship.place_ships_on_grid

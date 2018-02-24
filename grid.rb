@@ -1,6 +1,9 @@
-require '/home/karolina/ruby/battleship_game/cell.rb'
-require '/home/karolina/ruby/battleship_game/ship.rb'
+# require '/home/karolina/ruby/battleship_game/cell.rb'
+# require '/home/karolina/ruby/battleship_game/ship.rb'
 require 'pry'
+
+require File.expand_path('../cell.rb', __FILE__)
+require File.expand_path('../ship.rb', __FILE__)
 class Grid
 	attr_reader :width, :height, :letters_numbers
 	attr_accessor :cells, :ships

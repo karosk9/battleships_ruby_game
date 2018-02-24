@@ -1,5 +1,4 @@
-require '/home/karolina/ruby/battleship_game/grid.rb'
-
+require File.expand_path('../grid.rb', __FILE__)
 class Cell
 attr_accessor :content, :status, :sunk_ship
 attr_reader :coordinates

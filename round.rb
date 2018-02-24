@@ -1,4 +1,4 @@
-require '/home/karolina/ruby/battleship_game/cell.rb'
+require File.expand_path('../cell.rb', __FILE__)
 
 class Round
 	def initialize(grid)

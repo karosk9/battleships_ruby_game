@@ -1,5 +1,5 @@
-require '/home/karolina/ruby/battleship_game/grid.rb'
-require '/home/karolina/ruby/battleship_game/ship.rb'
+require File.expand_path('../grid.rb', __FILE__)
+require File.expand_path('../ship.rb', __FILE__)
 
 class Game
 attr_accessor :grid
